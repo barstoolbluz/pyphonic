@@ -3,7 +3,7 @@
 Polyphase Filter Bank Generator - Mathematically Exact Implementation
 =====================================================================
 
-Final implementation with correct understanding of polyphase symmetry:
+Final implementation:
 - Only phase 0 (and phase L/2 for even L) can be symmetric
 - Other phases are inherently asymmetric due to the extraction pattern
 - This does NOT break linear phase or perfect reconstruction
