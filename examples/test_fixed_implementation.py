@@ -5,9 +5,9 @@ Test the fixed polyphase implementation against all recommendations.
 
 import sys
 import os
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'src'))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
 
-from polyphase_gen_fixed import PolyphaseGenerator, property_based_tests
+from src.polyphase_gen_fixed import PolyphaseGenerator, property_based_tests
 import numpy as np
 import logging
 
